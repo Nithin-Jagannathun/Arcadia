@@ -9,7 +9,14 @@ import authRoutes from './routes/authRoutes.js';
 import doodleRoutes from './routes/doodleRoutes.js';
 import goalRoutes from './routes/goalRoutes.js';
 import ideaRoutes from './routes/ideaRoutes.js';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Load .env from server directory as well as cwd
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 dotenv.config();
 
 const app = express();
