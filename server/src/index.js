@@ -49,12 +49,21 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-// Mount Routes
+// Mount Routes (supporting both /api and direct paths)
 app.use('/api/auth', authRoutes);
+app.use('/auth', authRoutes);
+
 app.use('/api/assignments', assignmentRoutes);
+app.use('/assignments', assignmentRoutes);
+
 app.use('/api/goals', goalRoutes);
+app.use('/goals', goalRoutes);
+
 app.use('/api/ideas', ideaRoutes);
+app.use('/ideas', ideaRoutes);
+
 app.use('/api/doodles', doodleRoutes);
+app.use('/doodles', doodleRoutes);
 
 // Error Handling
 app.use(notFound);
