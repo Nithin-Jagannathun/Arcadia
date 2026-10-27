@@ -1,0 +1,15 @@
+{
+  "name": "arcadia-student-life-manager",
+  "version": "1.0.0",
+  "description": "Arcadia - Complete MERN Student Life Manager",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "npm run seed --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.5"
+  }
+}
