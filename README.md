@@ -1,7 +1,4 @@
 # 🏛️ Arcadia — Student Life Manager
-> **End-Term Software Project Submission**  
-> **Course:** Advanced Full-Stack Software Engineering / Project  
-> **Official Submission Form:** [https://forms.gle/sBy4sfqyiRG2Zpom9](https://forms.gle/sBy4sfqyiRG2Zpom9)
 
 ---
 
@@ -9,8 +6,8 @@
 
 ```text
 Project Name:                 Arcadia — Student Life Manager
-Student Name:                 Nithin Jagannathun (ID: 25f3003982)
-Student Email:                25f3003982@ds.study.iitm.ac.in
+Student Name:                 Nithin Jagannathun (ID: 25bcs10413)
+Student Email:                25bcs10413@sst.scaler.com
 GitHub Repository:            https://github.com/Nithin-Jagannathun/Arcadia
 Deployed Application / Build: Accessible locally via 'npm run dev' & deployable to Vercel/Render
 Demo Video:                   [Link to Demo Video / Screencast]
